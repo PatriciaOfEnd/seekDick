@@ -2,6 +2,9 @@ import unittest
 from seekDick import seek_dick
 
 class TestSeekDick(unittest.TestCase):
+    """此类用来测试 seekDick 模块。
+    """
+
     def test_seek_dick_yyf_man(self):
         result = seek_dick("嘤嘤饭", "男性")
         self.assertEqual(result, False)

@@ -16,5 +16,4 @@ def seek_dick(name_: str, gender_: str):
         return True
     elif gender_ == "女性":
         return False
-    else:
-        return 2
+    return 2
